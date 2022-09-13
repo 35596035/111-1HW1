@@ -10,8 +10,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
-            <asp:Button ID="btn" runat="server" Text="Button" Height="300px" Width="200px" />
+            <asp:Button ID="btn" runat="server" Text="Button" Height="300px" Width="200px" OnClick="btn_Click" />
         </div>
     </form>
 </body>
