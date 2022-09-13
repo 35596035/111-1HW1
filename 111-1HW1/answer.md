@@ -36,7 +36,7 @@
 </body>
 </html>
 ```
-根據readme.md檔的內容在Page_Load加入可以讓畫面輸出`Hello APP`的字樣，所以我使用
+根據readme.md檔的內容在Page_Load加入可以讓畫面輸出Hello APP的字樣，所以我使用
 `Response.Write()`來完成
 ```csharp
         protected void Page_Load(object sender, EventArgs e)
@@ -44,7 +44,7 @@
             Response.Write("Hello App");
         }
 ```
-根據readme.md檔的內容點擊button按鈕物件會輸出`Hello Button`字樣，所以我在
+根據readme.md檔的內容點擊button按鈕物件會輸出Hello Button字樣，所以我在
 btn_Click加入`Response.Write()`來達成
 ```csharp
         protected void btn_Click(object sender, EventArgs e)
@@ -53,14 +53,14 @@ btn_Click加入`Response.Write()`來達成
         }
 
 ```
-最後輸出結果是先在螢幕出現`Hello APP`的字樣，隨後按下按鈕`Hello Button`的字樣會直接
-加在`Hello APP`後，變成`Hello APPHello Button`
+最後輸出結果是先在螢幕出現Hello APP的字樣，隨後按下按鈕Hello Button的字樣會直接
+加在Hello APP後，變成Hello APPHello Button
 
 
 ## 個人認為完成作業須具備觀念
 
 我覺得這次作業須先了解到新增按鈕物件的位置，必須先點選Test.aspx檔再點選工具箱
 才能看到許多可拖曳物件，找到button物件之後拖曳到`<div></div>`之間
-再修改button屬性的ID根據readme.md要求修改btn_Show後，到Test.aspx.cs輸入對應的程式碼，
-如輸出就會用到`Reponse.Write()`來完成此次作業
+再修改button屬性的ID根據readme.md要求修改btn_Show後，再根據readme.md要求到Test.aspx.cs輸入對應的程式碼，
+如輸出文字就會用到`Reponse.Write()`來完成此次作業
 
